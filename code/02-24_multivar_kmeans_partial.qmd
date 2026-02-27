@@ -36,6 +36,8 @@ Since k-means only take numerical variables, let's select them now.
 weather_n <- weather %>%
   dplyr::select(-c(year:strength_gtex))
 
+
+
 weather_n
 ```
 
